@@ -10,7 +10,7 @@
     "lint:fix": "next lint --ignore-path .gitignore --fix",
     "lint:style": "stylelint --ignore-path .gitignore './**/*.{css,scss}'",
     "lint:style:fix": "stylelint --ignore-path .gitignore --fix './**/*.{css,scss}'",
-    "format": "prettier --write --ignore-path .gitignore './**/*.{js,jsx,ts,tsx,json}'",
+    "format": "prettier --write --ignore-path .gitignore './**/*.{js,jsx,ts,tsx,json,css,scss}'",
     "prepare": "husky install"
   },
   "dependencies": {
@@ -38,6 +38,7 @@
     "prettier-plugin-tailwindcss": "^0.1.13",
     "sass": "^1.54.0",
     "stylelint": "^14.9.1",
+    "stylelint-config-prettier": "^9.0.3",
     "stylelint-config-recess-order": "^3.0.0",
     "stylelint-config-recommended-scss": "^7.0.0",
     "stylelint-config-standard": "^26.0.0",

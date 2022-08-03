@@ -7,12 +7,6 @@
     "source.fixAll.eslint": true,
     "source.fixAll.stylelint": true
   },
-  "[css]": {
-    "editor.formatOnSave": false
-  },
-  "[scss]": {
-    "editor.formatOnSave": false
-  },
   "css.validate": false,
   "scss.validate": false
 }
