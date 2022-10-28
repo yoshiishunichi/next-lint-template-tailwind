@@ -42,6 +42,8 @@ const Home: NextPage = () => {
           <a
             className={styles.card}
             href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            rel="noopener noreferrer"
+            target="_blank"
           >
             <h2>Deploy &rarr;</h2>
             <p>Instantly deploy your Next.js site to a public URL with Vercel.</p>
